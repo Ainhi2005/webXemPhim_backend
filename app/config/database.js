@@ -4,7 +4,6 @@ const mysql = require('mysql2');
 const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '', // Mật khẩu của bạn
     database: 'web_ban_ve',
     waitForConnections: true,
     connectionLimit: 10,
